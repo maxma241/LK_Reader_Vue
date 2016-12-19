@@ -33,7 +33,7 @@
 
                 let url = this.Lk_Url + "/forum-141-" + page + ".html";
 
-                let YqlUrl = "http://query.yahooapis.com/v1/public/yql?q=" +
+                let YqlUrl = "https://query.yahooapis.com/v1/public/yql?q=" +
                     encodeURIComponent("select * from html where url='" + url + "'") +
                     "&format=xml";
 

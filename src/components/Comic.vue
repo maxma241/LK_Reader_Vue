@@ -23,7 +23,7 @@
         },
         computed: {
             YqlUrl: function() {
-                return "http://query.yahooapis.com/v1/public/yql?q=" +
+                return "https://query.yahooapis.com/v1/public/yql?q=" +
                     encodeURIComponent("select * from html where url='" + this.Lk_Url + this.link + "'") +
                     "&format=xml";
             }
