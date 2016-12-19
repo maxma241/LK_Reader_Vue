@@ -1,10 +1,10 @@
 <template>
-    <md-layout>
+    <div>
         <md-list class="md-double-line">
             <ComicListItem v-for="(item, index) in comics" :data="item"><ComicListItem />
         </md-list>
         <infinite-loading :on-infinite="onInfinite" ref="infiniteLoading" v-bind:distance="0"></infinite-loading>
-    </md-layout>
+    </div>
 </template>
 
 <script>
